@@ -72,16 +72,19 @@ Learning.
 1. Fork and clone the project
 2. Run `mvn package` in the root directory
 3. Upload the jar generated in the target directory to AWS Lambda
-4. Configure a test based on Hello World template
-5. Provide a useful name to the test
-6. Insert the following as the input:
-```json
-{
-    "name": "Sanjula"
-}
-```
-
-Now save the changes and click on the Test button or execute the function from another application.
+4. Change the value in the Handler field as follows:
+    ```text
+    com.sanjula.wso2.FunctionHandler::handleRequest
+    ```
+5. Configure a test based on Hello World template
+6. Provide a useful name to the test
+7. Insert the following as the input:
+    ```json
+    {
+        "name": "Sanjula"
+    }
+    ```
+8. Now save the changes and click on the Test button or execute the function from another application.
 
 <!-- CONTRIBUTING -->
 

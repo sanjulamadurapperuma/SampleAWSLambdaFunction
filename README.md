@@ -44,6 +44,7 @@
 <!--
 - [About the Project](#about-the-project)
 -->
+- [Getting Started](#getting-started)
 - [Contributing](#contributing)
 - [License](#license)
 - [Contact](#contact)
@@ -64,6 +65,8 @@ patterns associated with them. In addition to that, predicting future trends usi
 Learning.
 -->
 
+<!-- GETTING STARTED -->
+
 ## Getting Started
 
 1. Fork and clone the project
@@ -72,11 +75,13 @@ Learning.
 4. Configure a test based on Hello World template
 5. Provide a useful name to the test
 6. Insert the following as the input:
-<br/>
-`{`<br/>
-    `"name": "Sanjula"`<br/>
- `}`<br/>
-7. Save the changes and click on the Test button or execute the function from another application.
+```json
+{
+    "name": "Sanjula"
+}
+```
+
+Now save the changes and click on the Test button or execute the function from another application.
 
 <!-- CONTRIBUTING -->
 

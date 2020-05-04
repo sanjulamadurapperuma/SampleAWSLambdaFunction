@@ -15,7 +15,7 @@
  * specific language governing permissions and limitations
  * under the License.
  */
-package com.sanjula.wso2.dto;
+package com.sanjula.wso2.nameapp.dto;
 
 public class LambdaRequest {
     private String name;

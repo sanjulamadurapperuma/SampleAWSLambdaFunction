@@ -15,12 +15,12 @@
  * specific language governing permissions and limitations
  * under the License.
  */
-package com.sanjula.wso2;
+package com.sanjula.wso2.nameapp;
 
 import com.amazonaws.services.lambda.runtime.Context;
 import com.amazonaws.services.lambda.runtime.RequestHandler;
-import com.sanjula.wso2.dto.LambdaRequest;
-import com.sanjula.wso2.dto.LambdaResponse;
+import com.sanjula.wso2.nameapp.dto.LambdaRequest;
+import com.sanjula.wso2.nameapp.dto.LambdaResponse;
 
 import java.util.Date;
 import java.util.UUID;

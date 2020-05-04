@@ -74,7 +74,7 @@ Learning.
 3. Upload the jar generated in the target directory to AWS Lambda
 4. Change the value in the Handler field as follows:
     ```text
-    com.sanjula.wso2.FunctionHandler::handleRequest
+    com.sanjula.wso2.nameapp.FunctionHandler::handleRequest
     ```
 5. Configure a test based on Hello World template
 6. Provide a useful name to the test

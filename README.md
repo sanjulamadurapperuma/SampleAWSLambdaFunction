@@ -73,17 +73,31 @@ Learning.
 2. Run `mvn package` in the root directory
 3. Upload the jar generated in the target directory to AWS Lambda
 4. Change the value in the Handler field as follows:
+   - For the Name app: 
     ```text
     com.sanjula.wso2.nameapp.FunctionHandler::handleRequest
     ```
+   - For the Marketplace app:
+     - For the Search Function:
+     ```text
+     com.sanjula.wso2.marketplaceapp.searchFunction.SearchHandler::handleRequest  
+     ```
 5. Configure a test based on Hello World template
 6. Provide a useful name to the test
 7. Insert the following as the input:
+   - For the Name app:
     ```json
     {
         "name": "Sanjula"
     }
     ```
+   - For the Marketplace app:
+     - For the Search Function:
+       ```json
+       {
+           "searchTerm": "Smartwatch"
+       }
+       ```
 8. Now save the changes and click on the Test button or execute the function from another application.
 
 <!-- CONTRIBUTING -->

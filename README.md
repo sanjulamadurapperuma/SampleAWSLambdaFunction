@@ -41,9 +41,7 @@
 <!-- TABLE OF CONTENTS -->
 
 ## Table of Contents
-<!--
 - [About the Project](#about-the-project)
--->
 - [Getting Started](#getting-started)
 - [Contributing](#contributing)
 - [License](#license)
@@ -51,9 +49,10 @@
 
 <!-- ABOUT THE PROJECT -->
 
-<!--
+
 ## About The Project
--->
+
+This project is a code-base template that can be used in an AWS Lambda function and customized to your liking.
 
 <!--
 [![Product Name Screen Shot][product-screenshot]](https://example.com)
